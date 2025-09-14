@@ -24,6 +24,7 @@ Hi there! I’m Alec, a PhD candidate in Neuroscience at Northwestern University
 My primary focus is on decoding language and speech from high-dimensional intracranial neural recordings, combining statistical modeling and deep learning to reveal how the brain processes word level semantics, syntax, and phonemes. In parallel, I study large language models like Wav2Vec2.0 and HuBERT, uncovering how human-like perceptual biases—such as the lexical bias in phoneme categorization—emerge in purely feedforward architectures. Together, these dual tracks let me compare brain signals and AI models side-by-side, offering insights into both human cognition and artificial systems.
 
 Beyond my main projects, I’ve also worked on
+
 - [1] video-based pipelines to classify stages of Parkinson’s disease from human movement.
 - [2] improved clinical assessment for stroke patients during arm reaching with IMU and video recordings.
 - [3] designed neurofeedback paradigms to probe the dissociation between spikes and high-gamma signals for BCIs.
