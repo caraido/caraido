@@ -18,11 +18,12 @@
       "startDate": "2021-09-01",
       "endDate": "2026-08-01",
       "score": "3.91",
-      "courses": ["Circuits and Systems of Motor Control", 
-                    "Deep Reinforcement Learning", 
-                    "Biophysical Signal Processing",
-                    "Seminar in Speech Perception"
-              ]
+      "courses": [
+        "Circuits and Systems of Motor Control",
+        "Deep Reinforcement Learning",
+        "Biophysical Signal Processing",
+        "Seminar in Speech Perception"
+      ]
     },
     {
       "institution": "Northwestern University",
@@ -33,9 +34,10 @@
       "startDate": "2019-09-01",
       "endDate": "2020-08-01",
       "score": "3.97",
-      "courses": ["Quantitative Biology: Statistics & Data Analysis for Life Scientists",
-                  "Machine Learning: Foundations, Applications, and Algorithms"
-                ]
+      "courses": [
+        "Quantitative Biology: Statistics & Data Analysis for Life Scientists",
+        "Machine Learning: Foundations, Applications, and Algorithms"
+      ]
     },
     {
       "institution": "Fudan University",
@@ -46,12 +48,8 @@
       "startDate": "2015-09-01",
       "endDate": "2019-06-01",
       "score": "3.85/4.0 (GPA), 98/100 (Major GPA)",
-      "courses": ["Biological Cybernetics", 
-                  "Computational Neurobiology", 
-                  "Introduction to Artificial Intelligence"
-                ]
+      "courses": ["Biological Cybernetics", "Computational Neurobiology", "Introduction to Artificial Intelligence"]
     }
-
   ],
   "work": [
     {
@@ -60,20 +58,18 @@
       "url": "https://sites.northwestern.edu/schwartzlab/",
       "startDate": "2020-09-01",
       "endDate": "2021-08-01",
-      "highlights": ["Engineered full-stack software for real-time behavioral experiments.",
-                  "Integrated computer vision tools (OpenCV) for camera calibration and triangulation.",
-                  "Delivered solutions for efficient data collection, storage, and visualization using DataJoints."]
+      "highlights": [
+        "Engineered full-stack software for real-time behavioral experiments.",
+        "Integrated computer vision tools (OpenCV) for camera calibration and triangulation.",
+        "Delivered solutions for efficient data collection, storage, and visualization using DataJoints."
+      ]
     }
   ],
-    "projects": [
+  "projects": [
     {
       "name": "Stages of Parkinson's Disease Detection with mobile phone video recordings",
       "summary": "Parkinson's Disease diagnosis requires clinical assessments that may not be frequent enough to track its progression. This project aims to develop a machine learning pipeline for the detection and staging of Parkinson's disease using video recordings captured on mobile phones.",
-      "highlights": [
-                      "Machine learning pipeline development", 
-                      "Pose estimation with OpenPose",
-                      "Kinematic feature engineering"
-                    ],
+      "highlights": ["Machine learning pipeline development", "Pose estimation with OpenPose", "Kinematic feature engineering"],
       "startDate": "2019-03-01",
       "endDate": "2019-12-31",
       "url": "https://github.com/caraido/PDVideoAnalysis"
@@ -81,12 +77,7 @@
     {
       "name": "Subsecond Animal Behavior Embeddings classification with Variational Autoencoders",
       "summary": "Ethology studies heavily rely on human labeling of the data. This project improves the algorithm of an unsupervised learning model that embeds subsecond animal behavior (TREBA) that allows interpretable clustering of mice behaviors.",
-      "highlights": [
-                      "Variational Autoencoder model improvement", 
-                      "Triplet loss",
-                      "Keypoint detection with DeepLabCut",
-                      "Kinematic embedding"
-                    ],
+      "highlights": ["Variational Autoencoder model improvement", "Triplet loss", "Keypoint detection with DeepLabCut", "Kinematic embedding"],
       "startDate": "2020-02-01",
       "endDate": "2020-06-30",
       "url": "https://github.com/caraido/TREBA"
@@ -94,17 +85,13 @@
     {
       "name": "The emergent effects of lexical and phonemic bias in automated speech recognition models",
       "summary": "Human demonstrates lexical bias when listening to ambiguous words. This has been argued to be a top-down modulation in human brain. We investigated if this phenomenon is also present in automated speech recognition models, which is trained through a bottom-up, feedforward architecture.",
-      "highlights": [
-                      "Wav2Vec2.0 fine-tuning",
-                      "Speech embedding analysis",
-                      "LLM layer probing"
-                    ],
+      "highlights": ["Wav2Vec2.0 fine-tuning", "Speech embedding analysis", "LLM layer probing"],
       "startDate": "2024-06-01",
       "endDate": "present",
-      "url": "" 
+      "url": ""
     }
   ],
-  
+
   "awards": [
     {
       "title": "NIH T32 Training Grant in Cognitive Neuroscience",
@@ -125,24 +112,37 @@
     {
       "name": "Neuroscience",
       "keywords": [
-        "Motor control theory", "Language and speech", "Brain Machine Interfaces", "Neuromotor interfaces",
-        "Animal Ethology", "Neural computation"
+        "Motor control theory",
+        "Language and speech",
+        "Brain Machine Interfaces",
+        "Neuromotor interfaces",
+        "Animal Ethology",
+        "Neural computation"
       ]
     },
     {
       "name": "Machine Learning and Data Science",
       "keywords": [
-        "PyTorch", "Tensorflow", "Scikit-learn", "OpenCV", "Wav2Vec2.0","Pandas", "NumPy", "Matplotlib", "Seaborn", "Plotly", "Jupyter","DataJoints"
+        "PyTorch",
+        "Tensorflow",
+        "Scikit-learn",
+        "OpenCV",
+        "Wav2Vec2.0",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Jupyter",
+        "DataJoints"
       ]
     },
     {
       "name": "Software Development",
-      "keywords": [
-        "Python", "C", "Matlab", "Git", "GitHub", "Docker", "Bash", "Markdown","SQL"
-      ]
+      "keywords": ["Python", "C", "Matlab", "Git", "GitHub", "Docker", "Bash", "Markdown", "SQL"]
     }
   ],
-    "volunteer": [
+  "volunteer": [
     {
       "organization": "Northwestern University Brain Awareness Outreach (NUBAO)",
       "location": "Chicago, IL, USA",
@@ -151,7 +151,7 @@
       "startDate": "2021-07-01",
       "endDate": "2021-08-01",
       "summary": "Lead lecturer of 'Neuroscience of motor control and brain machine interfaces' for students in Walter Payton College Prep"
-      }
+    }
   ],
   "publications": [
     {
@@ -179,7 +179,7 @@
       "name": "From Receptive to Perceptive Fields: Size-Dependent Asymmetries in Both Negative Afterimages and Subcortical On and Off Post-Stimulus Responses",
       "publisher": "Journal of Neuroscience",
       "releaseDate": "2021-09-15",
-      "url": "https://www.cell.com/current-biology/abstract/S0960-9822(24)01582-3",
+      "url": "https://www.jneurosci.org/content/41/37/7813",
       "summary": "Modeling revealed that size-dependent antagonism in subcortical ON/OFF cells drives stronger, longer-lasting negative afterimages for dark versus bright stimuli."
     }
   ]
