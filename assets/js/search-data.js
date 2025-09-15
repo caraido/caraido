@@ -35,17 +35,22 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2.html";
+            },},{id: "news-alec-presented-his-work-on-quot-aspects-of-speech-production-represented-in-inferior-frontal-gyrus-quot-at-the-2025-bci-meeting-in-banff-canada",
+          title: 'Alec presented his work on &amp;quot;Aspects of speech production represented in inferior frontal...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/BCI_society_meeting_2025.html";
             },},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
           title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
           description: "",
           section: "News",},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
           title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
           description: "",
-          section: "News",},{id: "news-alec-presented-his-work-on-quot-aspects-of-speech-production-represented-in-inferior-frontal-gyrus-quot-at-the-2025-bci-meeting-in-banff-canada",
-          title: 'Alec presented his work on &amp;quot;Aspects of speech production represented in inferior frontal...',
+          section: "News",},{id: "news-alec-presented-his-work-at-the-2024-snl-conference-in-brisbane-australia",
+          title: 'Alec presented his work at the 2024 SNL Conference in Brisbane, Australia!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_3.html";
+              window.location.href = "/news/SNL_2024.html";
             },},{
         id: 'social-email',
         title: 'email',
