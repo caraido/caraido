@@ -1,0 +1,24 @@
+<div class="pdf-embed">
+  <object
+    data="{{ include.path | relative_url }}"
+    type="application/pdf"
+    {% if include.width %}
+      width="{{ include.width }}"
+    {% else %}
+      width="100%"
+    {% endif %}
+    {% if include.height %}
+      height="{{ include.height }}"
+    {% else %}
+      height="600px"
+    {% endif %}
+  >
+    <p>
+      This PDF cannot be displayed.
+      <a href="{{ include.path | relative_url }}">Download PDF</a>.
+    </p>
+  </object>
+  {% if include.caption %}
+    <div class="caption">{{ include.caption }}</div>
+  {% endif %}
+</div>

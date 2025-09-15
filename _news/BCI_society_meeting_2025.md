@@ -16,6 +16,11 @@ Alec presented his work on "Aspects of speech production represented in inferior
     </object>
 </p>
 
----
-
----
+<div class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2025_BCI_meeting.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        {% include pdf-embed.liquid data="assets/pdf/Poster_BCI_society_2025.pdf" %}
+    </div>
+</div>
