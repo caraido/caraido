@@ -33,7 +33,12 @@ ninja.data = [{
         },{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
           title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
           description: "",
-          section: "News",},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
+          section: "News",},{id: "news-alec-presented-his-work-at-the-2023-sfn-in-washington-d-c",
+          title: 'Alec presented his work at the 2023 SfN in Washington, D.C.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/SfN_2023.html";
+            },},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
           title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
           description: "",
           section: "News",},{id: "news-alec-presented-his-work-at-the-2024-snl-conference-in-brisbane-australia",
