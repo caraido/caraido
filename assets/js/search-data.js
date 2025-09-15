@@ -30,18 +30,23 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+        },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
+          title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "news-alec-received-nih-t32-training-grant-in-cognitive-neuroscience-support-for-his-phd-studies",
+          title: 'Alec received NIH T32 training grant in Cognitive Neuroscience support for his PhD...',
+          description: "",
+          section: "News",},{id: "news-alec-presented-his-work-on-quot-aspects-of-speech-production-represented-in-inferior-frontal-gyrus-quot-at-the-2025-bci-meeting-in-banff-canada",
+          title: 'Alec presented his work on &amp;quot;Aspects of speech production represented in inferior frontal...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
