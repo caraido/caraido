@@ -25,7 +25,7 @@ My primary focus is on decoding language and speech from high-dimensional intrac
 
 Beyond my main projects, I’ve also worked on
 
-- [1] [video-based pipelines](https://github.com/caraido/PDVideoAnalysis) to classify stages of Parkinson’s disease from human movement.
+- [1] [Machine learning pipelines](https://github.com/caraido/PDVideoAnalysis) to classify stages of Parkinson’s disease with human movement features extracted from mono-camera videos.
 - [2] improved clinical assessment for stroke patients during arm reaching with IMU and video recordings.
 - [3] designed neurofeedback paradigms to probe the [dissociation between spikes and high-gamma signals](https://doi.org/10.1101/2025.07.10.663559) for BCIs.
 - [4] built unsupervised models to [cluster animal behavior into interpretable motifs](https://github.com/caraido/TREBA).
